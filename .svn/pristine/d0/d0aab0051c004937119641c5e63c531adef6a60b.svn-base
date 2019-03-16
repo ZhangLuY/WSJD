@@ -1,0 +1,1492 @@
+package com.zrhis.wsjd.system.bean;
+
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+
+
+/**
+ * SqglXsejtfsb entity. @author MyEclipse Persistence Tools
+ */
+@Entity
+@Table(name="SQGL_XSEJTFSB"
+    ,schema="CXJM"
+, uniqueConstraints = @UniqueConstraint(columnNames={"DEP_ID", "C_ID", "C_GRBH"})
+)
+
+public class SqglXsejtfsb  implements java.io.Serializable {
+
+
+    // Fields    
+
+     private String CBh;
+     private String depId;
+     private String CId;
+     private String CGrbh;
+     private Date dtSfrq;
+     private String VXm;
+     private Integer IXb;
+     private Date dtCsrq;
+     private String VZjhm;
+     private String VJtzz;
+     private String VFxm;
+     private String VFzy;
+     private String VFdh;
+     private Date dtFcsrq;
+     private String VMxm;
+     private String VMzy;
+     private String VMdh;
+     private Date dtMcsrq;
+     private Integer ICsyz;
+     private Integer IRcjb;
+     private String VRcqt;
+     private String VZcjg;
+     private Integer ISc;
+     private Integer ITx;
+     private Integer ICq;
+     private Integer IPg;
+     private Integer ISdt;
+     private Integer ITw;
+     private Integer ICsqt;
+     private String VCsqt;
+     private Integer IZx;
+     private Integer IZxcd;
+     private Integer IJx;
+     private String VJxqk;
+     private Integer ITlsc;
+     private Double NTz;
+     private Double NSg;
+     private Integer IWyfs;
+     private Double VTw;
+     private Integer IHxpl;
+     private Integer IMl;
+     private Integer IMshr;
+     private Integer IHr;
+     private Integer IMsqt;
+     private String VMsqt;
+     private Double NQlz;
+     private Double NQly;
+     private Integer IQl;
+     private String VQlqt;
+     private Integer IYzc;
+     private String VYyc;
+     private Integer ISzzc;
+     private String VSzyc;
+     private Integer IEzc;
+     private String VEyc;
+     private Integer IJbwbk;
+     private String VJbybk;
+     private Integer IBzc;
+     private String VByc;
+     private Integer IPfzc;
+     private Integer IPfsz;
+     private Integer IPfml;
+     private Integer IPfqt;
+     private String VPfqt;
+     private Integer IKqzc;
+     private String VKqyc;
+     private Integer IGmzc;
+     private String VGmyc;
+     private Integer IXfzc;
+     private String VXfyc;
+     private Integer IWszqzc;
+     private String VWszqyc;
+     private Integer IFbzc;
+     private String VFbyc;
+     private Integer IJzzc;
+     private String VJzyc;
+     private Integer IQd;
+     private String VQdqt;
+     private Integer ISfzz;
+     private String VZzyy;
+     private String VZzjg;
+     private Integer IWyzd;
+     private Integer IMrwy;
+     private Integer IHlzd;
+     private Integer IYfzd;
+     private String VXcsfdd;
+     private Date dtXcsfrq;
+     private String CSfys;
+     private String CCzybh;
+     private String VBz;
+     private Date dtJlrq;
+     private String VZhxgr;
+     private Date dtZhxgrq;
+     private Integer IXgbz;
+     private Integer IJlbz;
+     private Integer ICsbz;
+     private String depName;
+     private Integer IUpload;
+     private Date dtUpload;
+     private Date dtCreate;
+     private Integer IApgar;
+     private Integer IJbsc;
+     private String VJbqt;
+     private Double NMqtz;
+     private Integer IOt;
+     private Double NCnl;
+     private Integer ICncs;
+     private Integer IDb;
+     private Integer IDbcs;
+     private Integer IHdbw;
+     private Integer IZd;
+     private Integer IFyzd;
+     private Integer IYfsh;
+     private Integer IKqbj;
+     private Integer IBb;
+     private String VZdqt;
+     private Integer IZdqt;
+     private String VXbyc;
+     private Integer IXbzc;
+    
+
+
+    // Constructors
+
+    /** default constructor */
+    public SqglXsejtfsb() {
+    }
+
+	/** minimal constructor */
+    public SqglXsejtfsb(String CBh, String depId, String CId, String CGrbh, Date dtSfrq) {
+        this.CBh = CBh;
+        this.depId = depId;
+        this.CId = CId;
+        this.CGrbh = CGrbh;
+        this.dtSfrq = dtSfrq;
+    }
+    
+    /** full constructor */
+    public SqglXsejtfsb(String CBh, String depId, String CId, String CGrbh, Date dtSfrq, String VXm, Integer IXb, Date dtCsrq, String VZjhm, String VJtzz, String VFxm, String VFzy, String VFdh, Date dtFcsrq, String VMxm, String VMzy, String VMdh, Date dtMcsrq, Integer ICsyz, Integer IRcjb, String VRcqt, String VZcjg, Integer ISc, Integer ITx, Integer ICq, Integer IPg, Integer ISdt, Integer ITw, Integer ICsqt, String VCsqt, Integer IZx, Integer IZxcd, Integer IJx, String VJxqk, Integer ITlsc, Double NTz, Double NSg, Integer IWyfs, Double VTw, Integer IHxpl, Integer IMl, Integer IMshr, Integer IHr, Integer IMsqt, String VMsqt, Double NQlz, Double NQly, Integer IQl, String VQlqt, Integer IYzc, String VYyc, Integer ISzzc, String VSzyc, Integer IEzc, String VEyc, Integer IJbwbk, String VJbybk, Integer IBzc, String VByc, Integer IPfzc, Integer IPfsz, Integer IPfml, Integer IPfqt, String VPfqt, Integer IKqzc, String VKqyc, Integer IGmzc, String VGmyc, Integer IXfzc, String VXfyc, Integer IWszqzc, String VWszqyc, Integer IFbzc, String VFbyc, Integer IJzzc, String VJzyc, Integer IQd, String VQdqt, Integer ISfzz, String VZzyy, String VZzjg, Integer IWyzd, Integer IMrwy, Integer IHlzd, Integer IYfzd, String VXcsfdd, Date dtXcsfrq, String CSfys, String CCzybh, String VBz, Date dtJlrq, String VZhxgr, Date dtZhxgrq, Integer IXgbz, Integer IJlbz, Integer ICsbz, String depName, Integer IUpload, Date dtUpload, Date dtCreate, Integer IApgar, Integer IJbsc, String VJbqt, Double NMqtz, Integer IOt, Double NCnl, Integer ICncs, Integer IDb, Integer IDbcs, Integer IHdbw, Integer IZd, Integer IFyzd, Integer IYfsh, Integer IKqbj, Integer IBb, String VZdqt, Integer IZdqt, String VXbyc, Integer IXbzc) {
+        this.CBh = CBh;
+        this.depId = depId;
+        this.CId = CId;
+        this.CGrbh = CGrbh;
+        this.dtSfrq = dtSfrq;
+        this.VXm = VXm;
+        this.IXb = IXb;
+        this.dtCsrq = dtCsrq;
+        this.VZjhm = VZjhm;
+        this.VJtzz = VJtzz;
+        this.VFxm = VFxm;
+        this.VFzy = VFzy;
+        this.VFdh = VFdh;
+        this.dtFcsrq = dtFcsrq;
+        this.VMxm = VMxm;
+        this.VMzy = VMzy;
+        this.VMdh = VMdh;
+        this.dtMcsrq = dtMcsrq;
+        this.ICsyz = ICsyz;
+        this.IRcjb = IRcjb;
+        this.VRcqt = VRcqt;
+        this.VZcjg = VZcjg;
+        this.ISc = ISc;
+        this.ITx = ITx;
+        this.ICq = ICq;
+        this.IPg = IPg;
+        this.ISdt = ISdt;
+        this.ITw = ITw;
+        this.ICsqt = ICsqt;
+        this.VCsqt = VCsqt;
+        this.IZx = IZx;
+        this.IZxcd = IZxcd;
+        this.IJx = IJx;
+        this.VJxqk = VJxqk;
+        this.ITlsc = ITlsc;
+        this.NTz = NTz;
+        this.NSg = NSg;
+        this.IWyfs = IWyfs;
+        this.VTw = VTw;
+        this.IHxpl = IHxpl;
+        this.IMl = IMl;
+        this.IMshr = IMshr;
+        this.IHr = IHr;
+        this.IMsqt = IMsqt;
+        this.VMsqt = VMsqt;
+        this.NQlz = NQlz;
+        this.NQly = NQly;
+        this.IQl = IQl;
+        this.VQlqt = VQlqt;
+        this.IYzc = IYzc;
+        this.VYyc = VYyc;
+        this.ISzzc = ISzzc;
+        this.VSzyc = VSzyc;
+        this.IEzc = IEzc;
+        this.VEyc = VEyc;
+        this.IJbwbk = IJbwbk;
+        this.VJbybk = VJbybk;
+        this.IBzc = IBzc;
+        this.VByc = VByc;
+        this.IPfzc = IPfzc;
+        this.IPfsz = IPfsz;
+        this.IPfml = IPfml;
+        this.IPfqt = IPfqt;
+        this.VPfqt = VPfqt;
+        this.IKqzc = IKqzc;
+        this.VKqyc = VKqyc;
+        this.IGmzc = IGmzc;
+        this.VGmyc = VGmyc;
+        this.IXfzc = IXfzc;
+        this.VXfyc = VXfyc;
+        this.IWszqzc = IWszqzc;
+        this.VWszqyc = VWszqyc;
+        this.IFbzc = IFbzc;
+        this.VFbyc = VFbyc;
+        this.IJzzc = IJzzc;
+        this.VJzyc = VJzyc;
+        this.IQd = IQd;
+        this.VQdqt = VQdqt;
+        this.ISfzz = ISfzz;
+        this.VZzyy = VZzyy;
+        this.VZzjg = VZzjg;
+        this.IWyzd = IWyzd;
+        this.IMrwy = IMrwy;
+        this.IHlzd = IHlzd;
+        this.IYfzd = IYfzd;
+        this.VXcsfdd = VXcsfdd;
+        this.dtXcsfrq = dtXcsfrq;
+        this.CSfys = CSfys;
+        this.CCzybh = CCzybh;
+        this.VBz = VBz;
+        this.dtJlrq = dtJlrq;
+        this.VZhxgr = VZhxgr;
+        this.dtZhxgrq = dtZhxgrq;
+        this.IXgbz = IXgbz;
+        this.IJlbz = IJlbz;
+        this.ICsbz = ICsbz;
+        this.depName = depName;
+        this.IUpload = IUpload;
+        this.dtUpload = dtUpload;
+        this.dtCreate = dtCreate;
+        this.IApgar = IApgar;
+        this.IJbsc = IJbsc;
+        this.VJbqt = VJbqt;
+        this.NMqtz = NMqtz;
+        this.IOt = IOt;
+        this.NCnl = NCnl;
+        this.ICncs = ICncs;
+        this.IDb = IDb;
+        this.IDbcs = IDbcs;
+        this.IHdbw = IHdbw;
+        this.IZd = IZd;
+        this.IFyzd = IFyzd;
+        this.IYfsh = IYfsh;
+        this.IKqbj = IKqbj;
+        this.IBb = IBb;
+        this.VZdqt = VZdqt;
+        this.IZdqt = IZdqt;
+        this.VXbyc = VXbyc;
+        this.IXbzc = IXbzc;
+    }
+
+   
+    // Property accessors
+    @Id 
+    
+    @Column(name="C_BH", unique=true, nullable=false, length=100)
+
+    public String getCBh() {
+        return this.CBh;
+    }
+    
+    public void setCBh(String CBh) {
+        this.CBh = CBh;
+    }
+    
+    @Column(name="DEP_ID", nullable=false, length=100)
+
+    public String getDepId() {
+        return this.depId;
+    }
+    
+    public void setDepId(String depId) {
+        this.depId = depId;
+    }
+    
+    @Column(name="C_ID", nullable=false, length=14)
+
+    public String getCId() {
+        return this.CId;
+    }
+    
+    public void setCId(String CId) {
+        this.CId = CId;
+    }
+    
+    @Column(name="C_GRBH", nullable=false, length=22)
+
+    public String getCGrbh() {
+        return this.CGrbh;
+    }
+    
+    public void setCGrbh(String CGrbh) {
+        this.CGrbh = CGrbh;
+    }
+    
+    @Column(name="DT_SFRQ", nullable=false, length=7)
+
+    public Date getDtSfrq() {
+        return this.dtSfrq;
+    }
+    
+    public void setDtSfrq(Date dtSfrq) {
+        this.dtSfrq = dtSfrq;
+    }
+    
+    @Column(name="V_XM", length=60)
+
+    public String getVXm() {
+        return this.VXm;
+    }
+    
+    public void setVXm(String VXm) {
+        this.VXm = VXm;
+    }
+    
+    @Column(name="I_XB", precision=22, scale=0)
+
+    public Integer getIXb() {
+        return this.IXb;
+    }
+    
+    public void setIXb(Integer IXb) {
+        this.IXb = IXb;
+    }
+    
+    @Column(name="DT_CSRQ", length=7)
+
+    public Date getDtCsrq() {
+        return this.dtCsrq;
+    }
+    
+    public void setDtCsrq(Date dtCsrq) {
+        this.dtCsrq = dtCsrq;
+    }
+    
+    @Column(name="V_ZJHM", length=20)
+
+    public String getVZjhm() {
+        return this.VZjhm;
+    }
+    
+    public void setVZjhm(String VZjhm) {
+        this.VZjhm = VZjhm;
+    }
+    
+    @Column(name="V_JTZZ", length=200)
+
+    public String getVJtzz() {
+        return this.VJtzz;
+    }
+    
+    public void setVJtzz(String VJtzz) {
+        this.VJtzz = VJtzz;
+    }
+    
+    @Column(name="V_FXM", length=10)
+
+    public String getVFxm() {
+        return this.VFxm;
+    }
+    
+    public void setVFxm(String VFxm) {
+        this.VFxm = VFxm;
+    }
+    
+    @Column(name="V_FZY", length=50)
+
+    public String getVFzy() {
+        return this.VFzy;
+    }
+    
+    public void setVFzy(String VFzy) {
+        this.VFzy = VFzy;
+    }
+    
+    @Column(name="V_FDH", length=20)
+
+    public String getVFdh() {
+        return this.VFdh;
+    }
+    
+    public void setVFdh(String VFdh) {
+        this.VFdh = VFdh;
+    }
+    
+    @Column(name="DT_FCSRQ", length=7)
+
+    public Date getDtFcsrq() {
+        return this.dtFcsrq;
+    }
+    
+    public void setDtFcsrq(Date dtFcsrq) {
+        this.dtFcsrq = dtFcsrq;
+    }
+    
+    @Column(name="V_MXM", length=20)
+
+    public String getVMxm() {
+        return this.VMxm;
+    }
+    
+    public void setVMxm(String VMxm) {
+        this.VMxm = VMxm;
+    }
+    
+    @Column(name="V_MZY", length=50)
+
+    public String getVMzy() {
+        return this.VMzy;
+    }
+    
+    public void setVMzy(String VMzy) {
+        this.VMzy = VMzy;
+    }
+    
+    @Column(name="V_MDH", length=20)
+
+    public String getVMdh() {
+        return this.VMdh;
+    }
+    
+    public void setVMdh(String VMdh) {
+        this.VMdh = VMdh;
+    }
+    
+    @Column(name="DT_MCSRQ", length=7)
+
+    public Date getDtMcsrq() {
+        return this.dtMcsrq;
+    }
+    
+    public void setDtMcsrq(Date dtMcsrq) {
+        this.dtMcsrq = dtMcsrq;
+    }
+    
+    @Column(name="I_CSYZ", precision=22, scale=0)
+
+    public Integer getICsyz() {
+        return this.ICsyz;
+    }
+    
+    public void setICsyz(Integer ICsyz) {
+        this.ICsyz = ICsyz;
+    }
+    
+    @Column(name="I_RCJB", precision=22, scale=0)
+
+    public Integer getIRcjb() {
+        return this.IRcjb;
+    }
+    
+    public void setIRcjb(Integer IRcjb) {
+        this.IRcjb = IRcjb;
+    }
+    
+    @Column(name="V_RCQT", length=50)
+
+    public String getVRcqt() {
+        return this.VRcqt;
+    }
+    
+    public void setVRcqt(String VRcqt) {
+        this.VRcqt = VRcqt;
+    }
+    
+    @Column(name="V_ZCJG", length=50)
+
+    public String getVZcjg() {
+        return this.VZcjg;
+    }
+    
+    public void setVZcjg(String VZcjg) {
+        this.VZcjg = VZcjg;
+    }
+    
+    @Column(name="I_SC", precision=22, scale=0)
+
+    public Integer getISc() {
+        return this.ISc;
+    }
+    
+    public void setISc(Integer ISc) {
+        this.ISc = ISc;
+    }
+    
+    @Column(name="I_TX", precision=22, scale=0)
+
+    public Integer getITx() {
+        return this.ITx;
+    }
+    
+    public void setITx(Integer ITx) {
+        this.ITx = ITx;
+    }
+    
+    @Column(name="I_CQ", precision=22, scale=0)
+
+    public Integer getICq() {
+        return this.ICq;
+    }
+    
+    public void setICq(Integer ICq) {
+        this.ICq = ICq;
+    }
+    
+    @Column(name="I_PG", precision=22, scale=0)
+
+    public Integer getIPg() {
+        return this.IPg;
+    }
+    
+    public void setIPg(Integer IPg) {
+        this.IPg = IPg;
+    }
+    
+    @Column(name="I_SDT", precision=22, scale=0)
+
+    public Integer getISdt() {
+        return this.ISdt;
+    }
+    
+    public void setISdt(Integer ISdt) {
+        this.ISdt = ISdt;
+    }
+    
+    @Column(name="I_TW", precision=22, scale=0)
+
+    public Integer getITw() {
+        return this.ITw;
+    }
+    
+    public void setITw(Integer ITw) {
+        this.ITw = ITw;
+    }
+    
+    @Column(name="I_CSQT", precision=22, scale=0)
+
+    public Integer getICsqt() {
+        return this.ICsqt;
+    }
+    
+    public void setICsqt(Integer ICsqt) {
+        this.ICsqt = ICsqt;
+    }
+    
+    @Column(name="V_CSQT", length=50)
+
+    public String getVCsqt() {
+        return this.VCsqt;
+    }
+    
+    public void setVCsqt(String VCsqt) {
+        this.VCsqt = VCsqt;
+    }
+    
+    @Column(name="I_ZX", precision=22, scale=0)
+
+    public Integer getIZx() {
+        return this.IZx;
+    }
+    
+    public void setIZx(Integer IZx) {
+        this.IZx = IZx;
+    }
+    
+    @Column(name="I_ZXCD", precision=22, scale=0)
+
+    public Integer getIZxcd() {
+        return this.IZxcd;
+    }
+    
+    public void setIZxcd(Integer IZxcd) {
+        this.IZxcd = IZxcd;
+    }
+    
+    @Column(name="I_JX", precision=22, scale=0)
+
+    public Integer getIJx() {
+        return this.IJx;
+    }
+    
+    public void setIJx(Integer IJx) {
+        this.IJx = IJx;
+    }
+    
+    @Column(name="V_JXQK", length=50)
+
+    public String getVJxqk() {
+        return this.VJxqk;
+    }
+    
+    public void setVJxqk(String VJxqk) {
+        this.VJxqk = VJxqk;
+    }
+    
+    @Column(name="I_TLSC", precision=22, scale=0)
+
+    public Integer getITlsc() {
+        return this.ITlsc;
+    }
+    
+    public void setITlsc(Integer ITlsc) {
+        this.ITlsc = ITlsc;
+    }
+    
+    @Column(name="N_TZ", precision=10)
+
+    public Double getNTz() {
+        return this.NTz;
+    }
+    
+    public void setNTz(Double NTz) {
+        this.NTz = NTz;
+    }
+    
+    @Column(name="N_SG", precision=10)
+
+    public Double getNSg() {
+        return this.NSg;
+    }
+    
+    public void setNSg(Double NSg) {
+        this.NSg = NSg;
+    }
+    
+    @Column(name="I_WYFS", precision=22, scale=0)
+
+    public Integer getIWyfs() {
+        return this.IWyfs;
+    }
+    
+    public void setIWyfs(Integer IWyfs) {
+        this.IWyfs = IWyfs;
+    }
+    
+    @Column(name="V_TW", precision=10)
+
+    public Double getVTw() {
+        return this.VTw;
+    }
+    
+    public void setVTw(Double VTw) {
+        this.VTw = VTw;
+    }
+    
+    @Column(name="I_HXPL", precision=22, scale=0)
+
+    public Integer getIHxpl() {
+        return this.IHxpl;
+    }
+    
+    public void setIHxpl(Integer IHxpl) {
+        this.IHxpl = IHxpl;
+    }
+    
+    @Column(name="I_ML", precision=22, scale=0)
+
+    public Integer getIMl() {
+        return this.IMl;
+    }
+    
+    public void setIMl(Integer IMl) {
+        this.IMl = IMl;
+    }
+    
+    @Column(name="I_MSHR", precision=22, scale=0)
+
+    public Integer getIMshr() {
+        return this.IMshr;
+    }
+    
+    public void setIMshr(Integer IMshr) {
+        this.IMshr = IMshr;
+    }
+    
+    @Column(name="I_HR", precision=22, scale=0)
+
+    public Integer getIHr() {
+        return this.IHr;
+    }
+    
+    public void setIHr(Integer IHr) {
+        this.IHr = IHr;
+    }
+    
+    @Column(name="I_MSQT", precision=22, scale=0)
+
+    public Integer getIMsqt() {
+        return this.IMsqt;
+    }
+    
+    public void setIMsqt(Integer IMsqt) {
+        this.IMsqt = IMsqt;
+    }
+    
+    @Column(name="V_MSQT", length=50)
+
+    public String getVMsqt() {
+        return this.VMsqt;
+    }
+    
+    public void setVMsqt(String VMsqt) {
+        this.VMsqt = VMsqt;
+    }
+    
+    @Column(name="N_QLZ", precision=10)
+
+    public Double getNQlz() {
+        return this.NQlz;
+    }
+    
+    public void setNQlz(Double NQlz) {
+        this.NQlz = NQlz;
+    }
+    
+    @Column(name="N_QLY", precision=10)
+
+    public Double getNQly() {
+        return this.NQly;
+    }
+    
+    public void setNQly(Double NQly) {
+        this.NQly = NQly;
+    }
+    
+    @Column(name="I_QL", precision=22, scale=0)
+
+    public Integer getIQl() {
+        return this.IQl;
+    }
+    
+    public void setIQl(Integer IQl) {
+        this.IQl = IQl;
+    }
+    
+    @Column(name="V_QLQT", length=50)
+
+    public String getVQlqt() {
+        return this.VQlqt;
+    }
+    
+    public void setVQlqt(String VQlqt) {
+        this.VQlqt = VQlqt;
+    }
+    
+    @Column(name="I_YZC", precision=22, scale=0)
+
+    public Integer getIYzc() {
+        return this.IYzc;
+    }
+    
+    public void setIYzc(Integer IYzc) {
+        this.IYzc = IYzc;
+    }
+    
+    @Column(name="V_YYC", length=50)
+
+    public String getVYyc() {
+        return this.VYyc;
+    }
+    
+    public void setVYyc(String VYyc) {
+        this.VYyc = VYyc;
+    }
+    
+    @Column(name="I_SZZC", precision=22, scale=0)
+
+    public Integer getISzzc() {
+        return this.ISzzc;
+    }
+    
+    public void setISzzc(Integer ISzzc) {
+        this.ISzzc = ISzzc;
+    }
+    
+    @Column(name="V_SZYC", length=50)
+
+    public String getVSzyc() {
+        return this.VSzyc;
+    }
+    
+    public void setVSzyc(String VSzyc) {
+        this.VSzyc = VSzyc;
+    }
+    
+    @Column(name="I_EZC", precision=22, scale=0)
+
+    public Integer getIEzc() {
+        return this.IEzc;
+    }
+    
+    public void setIEzc(Integer IEzc) {
+        this.IEzc = IEzc;
+    }
+    
+    @Column(name="V_EYC", length=50)
+
+    public String getVEyc() {
+        return this.VEyc;
+    }
+    
+    public void setVEyc(String VEyc) {
+        this.VEyc = VEyc;
+    }
+    
+    @Column(name="I_JBWBK", precision=22, scale=0)
+
+    public Integer getIJbwbk() {
+        return this.IJbwbk;
+    }
+    
+    public void setIJbwbk(Integer IJbwbk) {
+        this.IJbwbk = IJbwbk;
+    }
+    
+    @Column(name="V_JBYBK", length=50)
+
+    public String getVJbybk() {
+        return this.VJbybk;
+    }
+    
+    public void setVJbybk(String VJbybk) {
+        this.VJbybk = VJbybk;
+    }
+    
+    @Column(name="I_BZC", precision=22, scale=0)
+
+    public Integer getIBzc() {
+        return this.IBzc;
+    }
+    
+    public void setIBzc(Integer IBzc) {
+        this.IBzc = IBzc;
+    }
+    
+    @Column(name="V_BYC", length=50)
+
+    public String getVByc() {
+        return this.VByc;
+    }
+    
+    public void setVByc(String VByc) {
+        this.VByc = VByc;
+    }
+    
+    @Column(name="I_PFZC", precision=22, scale=0)
+
+    public Integer getIPfzc() {
+        return this.IPfzc;
+    }
+    
+    public void setIPfzc(Integer IPfzc) {
+        this.IPfzc = IPfzc;
+    }
+    
+    @Column(name="I_PFSZ", precision=22, scale=0)
+
+    public Integer getIPfsz() {
+        return this.IPfsz;
+    }
+    
+    public void setIPfsz(Integer IPfsz) {
+        this.IPfsz = IPfsz;
+    }
+    
+    @Column(name="I_PFML", precision=22, scale=0)
+
+    public Integer getIPfml() {
+        return this.IPfml;
+    }
+    
+    public void setIPfml(Integer IPfml) {
+        this.IPfml = IPfml;
+    }
+    
+    @Column(name="I_PFQT", precision=22, scale=0)
+
+    public Integer getIPfqt() {
+        return this.IPfqt;
+    }
+    
+    public void setIPfqt(Integer IPfqt) {
+        this.IPfqt = IPfqt;
+    }
+    
+    @Column(name="V_PFQT", length=50)
+
+    public String getVPfqt() {
+        return this.VPfqt;
+    }
+    
+    public void setVPfqt(String VPfqt) {
+        this.VPfqt = VPfqt;
+    }
+    
+    @Column(name="I_KQZC", precision=22, scale=0)
+
+    public Integer getIKqzc() {
+        return this.IKqzc;
+    }
+    
+    public void setIKqzc(Integer IKqzc) {
+        this.IKqzc = IKqzc;
+    }
+    
+    @Column(name="V_KQYC", length=50)
+
+    public String getVKqyc() {
+        return this.VKqyc;
+    }
+    
+    public void setVKqyc(String VKqyc) {
+        this.VKqyc = VKqyc;
+    }
+    
+    @Column(name="I_GMZC", precision=22, scale=0)
+
+    public Integer getIGmzc() {
+        return this.IGmzc;
+    }
+    
+    public void setIGmzc(Integer IGmzc) {
+        this.IGmzc = IGmzc;
+    }
+    
+    @Column(name="V_GMYC", length=50)
+
+    public String getVGmyc() {
+        return this.VGmyc;
+    }
+    
+    public void setVGmyc(String VGmyc) {
+        this.VGmyc = VGmyc;
+    }
+    
+    @Column(name="I_XFZC", precision=22, scale=0)
+
+    public Integer getIXfzc() {
+        return this.IXfzc;
+    }
+    
+    public void setIXfzc(Integer IXfzc) {
+        this.IXfzc = IXfzc;
+    }
+    
+    @Column(name="V_XFYC", length=50)
+
+    public String getVXfyc() {
+        return this.VXfyc;
+    }
+    
+    public void setVXfyc(String VXfyc) {
+        this.VXfyc = VXfyc;
+    }
+    
+    @Column(name="I_WSZQZC", precision=22, scale=0)
+
+    public Integer getIWszqzc() {
+        return this.IWszqzc;
+    }
+    
+    public void setIWszqzc(Integer IWszqzc) {
+        this.IWszqzc = IWszqzc;
+    }
+    
+    @Column(name="V_WSZQYC", length=50)
+
+    public String getVWszqyc() {
+        return this.VWszqyc;
+    }
+    
+    public void setVWszqyc(String VWszqyc) {
+        this.VWszqyc = VWszqyc;
+    }
+    
+    @Column(name="I_FBZC", precision=22, scale=0)
+
+    public Integer getIFbzc() {
+        return this.IFbzc;
+    }
+    
+    public void setIFbzc(Integer IFbzc) {
+        this.IFbzc = IFbzc;
+    }
+    
+    @Column(name="V_FBYC", length=50)
+
+    public String getVFbyc() {
+        return this.VFbyc;
+    }
+    
+    public void setVFbyc(String VFbyc) {
+        this.VFbyc = VFbyc;
+    }
+    
+    @Column(name="I_JZZC", precision=22, scale=0)
+
+    public Integer getIJzzc() {
+        return this.IJzzc;
+    }
+    
+    public void setIJzzc(Integer IJzzc) {
+        this.IJzzc = IJzzc;
+    }
+    
+    @Column(name="V_JZYC", length=50)
+
+    public String getVJzyc() {
+        return this.VJzyc;
+    }
+    
+    public void setVJzyc(String VJzyc) {
+        this.VJzyc = VJzyc;
+    }
+    
+    @Column(name="I_QD", precision=22, scale=0)
+
+    public Integer getIQd() {
+        return this.IQd;
+    }
+    
+    public void setIQd(Integer IQd) {
+        this.IQd = IQd;
+    }
+    
+    @Column(name="V_QDQT", length=50)
+
+    public String getVQdqt() {
+        return this.VQdqt;
+    }
+    
+    public void setVQdqt(String VQdqt) {
+        this.VQdqt = VQdqt;
+    }
+    
+    @Column(name="I_SFZZ", precision=22, scale=0)
+
+    public Integer getISfzz() {
+        return this.ISfzz;
+    }
+    
+    public void setISfzz(Integer ISfzz) {
+        this.ISfzz = ISfzz;
+    }
+    
+    @Column(name="V_ZZYY", length=100)
+
+    public String getVZzyy() {
+        return this.VZzyy;
+    }
+    
+    public void setVZzyy(String VZzyy) {
+        this.VZzyy = VZzyy;
+    }
+    
+    @Column(name="V_ZZJG", length=100)
+
+    public String getVZzjg() {
+        return this.VZzjg;
+    }
+    
+    public void setVZzjg(String VZzjg) {
+        this.VZzjg = VZzjg;
+    }
+    
+    @Column(name="I_WYZD", precision=22, scale=0)
+
+    public Integer getIWyzd() {
+        return this.IWyzd;
+    }
+    
+    public void setIWyzd(Integer IWyzd) {
+        this.IWyzd = IWyzd;
+    }
+    
+    @Column(name="I_MRWY", precision=22, scale=0)
+
+    public Integer getIMrwy() {
+        return this.IMrwy;
+    }
+    
+    public void setIMrwy(Integer IMrwy) {
+        this.IMrwy = IMrwy;
+    }
+    
+    @Column(name="I_HLZD", precision=22, scale=0)
+
+    public Integer getIHlzd() {
+        return this.IHlzd;
+    }
+    
+    public void setIHlzd(Integer IHlzd) {
+        this.IHlzd = IHlzd;
+    }
+    
+    @Column(name="I_YFZD", precision=22, scale=0)
+
+    public Integer getIYfzd() {
+        return this.IYfzd;
+    }
+    
+    public void setIYfzd(Integer IYfzd) {
+        this.IYfzd = IYfzd;
+    }
+    
+    @Column(name="V_XCSFDD", length=50)
+
+    public String getVXcsfdd() {
+        return this.VXcsfdd;
+    }
+    
+    public void setVXcsfdd(String VXcsfdd) {
+        this.VXcsfdd = VXcsfdd;
+    }
+    
+    @Column(name="DT_XCSFRQ", length=7)
+
+    public Date getDtXcsfrq() {
+        return this.dtXcsfrq;
+    }
+    
+    public void setDtXcsfrq(Date dtXcsfrq) {
+        this.dtXcsfrq = dtXcsfrq;
+    }
+    
+    @Column(name="C_SFYS", length=10)
+
+    public String getCSfys() {
+        return this.CSfys;
+    }
+    
+    public void setCSfys(String CSfys) {
+        this.CSfys = CSfys;
+    }
+    
+    @Column(name="C_CZYBH", length=50)
+
+    public String getCCzybh() {
+        return this.CCzybh;
+    }
+    
+    public void setCCzybh(String CCzybh) {
+        this.CCzybh = CCzybh;
+    }
+    
+    @Column(name="V_BZ", length=500)
+
+    public String getVBz() {
+        return this.VBz;
+    }
+    
+    public void setVBz(String VBz) {
+        this.VBz = VBz;
+    }
+    
+    @Column(name="DT_JLRQ", length=7)
+
+    public Date getDtJlrq() {
+        return this.dtJlrq;
+    }
+    
+    public void setDtJlrq(Date dtJlrq) {
+        this.dtJlrq = dtJlrq;
+    }
+    
+    @Column(name="V_ZHXGR", length=10)
+
+    public String getVZhxgr() {
+        return this.VZhxgr;
+    }
+    
+    public void setVZhxgr(String VZhxgr) {
+        this.VZhxgr = VZhxgr;
+    }
+    
+    @Column(name="DT_ZHXGRQ", length=7)
+
+    public Date getDtZhxgrq() {
+        return this.dtZhxgrq;
+    }
+    
+    public void setDtZhxgrq(Date dtZhxgrq) {
+        this.dtZhxgrq = dtZhxgrq;
+    }
+    
+    @Column(name="I_XGBZ", precision=22, scale=0)
+
+    public Integer getIXgbz() {
+        return this.IXgbz;
+    }
+    
+    public void setIXgbz(Integer IXgbz) {
+        this.IXgbz = IXgbz;
+    }
+    
+    @Column(name="I_JLBZ", precision=22, scale=0)
+
+    public Integer getIJlbz() {
+        return this.IJlbz;
+    }
+    
+    public void setIJlbz(Integer IJlbz) {
+        this.IJlbz = IJlbz;
+    }
+    
+    @Column(name="I_CSBZ", precision=22, scale=0)
+
+    public Integer getICsbz() {
+        return this.ICsbz;
+    }
+    
+    public void setICsbz(Integer ICsbz) {
+        this.ICsbz = ICsbz;
+    }
+    
+    @Column(name="DEP_NAME")
+
+    public String getDepName() {
+        return this.depName;
+    }
+    
+    public void setDepName(String depName) {
+        this.depName = depName;
+    }
+    
+    @Column(name="I_UPLOAD", precision=22, scale=0)
+
+    public Integer getIUpload() {
+        return this.IUpload;
+    }
+    
+    public void setIUpload(Integer IUpload) {
+        this.IUpload = IUpload;
+    }
+    
+    @Column(name="DT_UPLOAD", length=7)
+
+    public Date getDtUpload() {
+        return this.dtUpload;
+    }
+    
+    public void setDtUpload(Date dtUpload) {
+        this.dtUpload = dtUpload;
+    }
+    
+    @Column(name="DT_CREATE", length=7)
+
+    public Date getDtCreate() {
+        return this.dtCreate;
+    }
+    
+    public void setDtCreate(Date dtCreate) {
+        this.dtCreate = dtCreate;
+    }
+    
+    @Column(name="I_APGAR", precision=22, scale=0)
+
+    public Integer getIApgar() {
+        return this.IApgar;
+    }
+    
+    public void setIApgar(Integer IApgar) {
+        this.IApgar = IApgar;
+    }
+    
+    @Column(name="I_JBSC", precision=22, scale=0)
+
+    public Integer getIJbsc() {
+        return this.IJbsc;
+    }
+    
+    public void setIJbsc(Integer IJbsc) {
+        this.IJbsc = IJbsc;
+    }
+    
+    @Column(name="V_JBQT", length=100)
+
+    public String getVJbqt() {
+        return this.VJbqt;
+    }
+    
+    public void setVJbqt(String VJbqt) {
+        this.VJbqt = VJbqt;
+    }
+    
+    @Column(name="N_MQTZ", precision=10)
+
+    public Double getNMqtz() {
+        return this.NMqtz;
+    }
+    
+    public void setNMqtz(Double NMqtz) {
+        this.NMqtz = NMqtz;
+    }
+    
+    @Column(name="I_OT", precision=22, scale=0)
+
+    public Integer getIOt() {
+        return this.IOt;
+    }
+    
+    public void setIOt(Integer IOt) {
+        this.IOt = IOt;
+    }
+    
+    @Column(name="N_CNL", precision=10)
+
+    public Double getNCnl() {
+        return this.NCnl;
+    }
+    
+    public void setNCnl(Double NCnl) {
+        this.NCnl = NCnl;
+    }
+    
+    @Column(name="I_CNCS", precision=22, scale=0)
+
+    public Integer getICncs() {
+        return this.ICncs;
+    }
+    
+    public void setICncs(Integer ICncs) {
+        this.ICncs = ICncs;
+    }
+    
+    @Column(name="I_DB", precision=22, scale=0)
+
+    public Integer getIDb() {
+        return this.IDb;
+    }
+    
+    public void setIDb(Integer IDb) {
+        this.IDb = IDb;
+    }
+    
+    @Column(name="I_DBCS", precision=22, scale=0)
+
+    public Integer getIDbcs() {
+        return this.IDbcs;
+    }
+    
+    public void setIDbcs(Integer IDbcs) {
+        this.IDbcs = IDbcs;
+    }
+    
+    @Column(name="I_HDBW", precision=22, scale=0)
+
+    public Integer getIHdbw() {
+        return this.IHdbw;
+    }
+    
+    public void setIHdbw(Integer IHdbw) {
+        this.IHdbw = IHdbw;
+    }
+    
+    @Column(name="I_ZD", precision=22, scale=0)
+
+    public Integer getIZd() {
+        return this.IZd;
+    }
+    
+    public void setIZd(Integer IZd) {
+        this.IZd = IZd;
+    }
+    
+    @Column(name="I_FYZD", precision=22, scale=0)
+
+    public Integer getIFyzd() {
+        return this.IFyzd;
+    }
+    
+    public void setIFyzd(Integer IFyzd) {
+        this.IFyzd = IFyzd;
+    }
+    
+    @Column(name="I_YFSH", precision=22, scale=0)
+
+    public Integer getIYfsh() {
+        return this.IYfsh;
+    }
+    
+    public void setIYfsh(Integer IYfsh) {
+        this.IYfsh = IYfsh;
+    }
+    
+    @Column(name="I_KQBJ", precision=22, scale=0)
+
+    public Integer getIKqbj() {
+        return this.IKqbj;
+    }
+    
+    public void setIKqbj(Integer IKqbj) {
+        this.IKqbj = IKqbj;
+    }
+    
+    @Column(name="I_BB", precision=22, scale=0)
+
+    public Integer getIBb() {
+        return this.IBb;
+    }
+    
+    public void setIBb(Integer IBb) {
+        this.IBb = IBb;
+    }
+    
+    @Column(name="V_ZDQT", length=100)
+
+    public String getVZdqt() {
+        return this.VZdqt;
+    }
+    
+    public void setVZdqt(String VZdqt) {
+        this.VZdqt = VZdqt;
+    }
+    
+    @Column(name="I_ZDQT", precision=22, scale=0)
+
+    public Integer getIZdqt() {
+        return this.IZdqt;
+    }
+    
+    public void setIZdqt(Integer IZdqt) {
+        this.IZdqt = IZdqt;
+    }
+    
+    @Column(name="V_XBYC", length=100)
+
+    public String getVXbyc() {
+        return this.VXbyc;
+    }
+    
+    public void setVXbyc(String VXbyc) {
+        this.VXbyc = VXbyc;
+    }
+    
+    @Column(name="I_XBZC", precision=22, scale=0)
+
+    public Integer getIXbzc() {
+        return this.IXbzc;
+    }
+    
+    public void setIXbzc(Integer IXbzc) {
+        this.IXbzc = IXbzc;
+    }
+    
+   
+   
+
+
+
+
+
+
+
+
+}

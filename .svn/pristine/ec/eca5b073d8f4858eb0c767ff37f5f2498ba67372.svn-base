@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+.x-border{
+	border: 5px solid #3892d3;
+	
+}
+.x-404-panel{
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 150px;
+	position: relative;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+	border-radius:5px;
+	overflow: hidden;
+}
+.x-404-header{
+	height: 30px;
+	border-bottom: 5px solid #3892d3;
+	background-color: #3892d3;
+	color: white;
+	padding-left:10px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.x-404-center{
+	height: 315px;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(245,245,245);
+}
+
+.x-404-top{
+	height: 230px;
+	position: relative;
+}
+.x-404-top_img{
+	position: absolute;
+	top:30px;
+	left:60px;
+	height: 130px;
+	width: 220px;
+	background: url("images/error-flag.png");
+	border: 0px;
+	outline: none;
+}
+.x-403-top_img{
+	position: absolute;
+	top:30px;
+	left:60px;
+	height: 130px;
+	width: 220px;
+	background: url("images/error-flag.png") 0 -130px;
+	border: 0px;
+	outline: none;
+}
+.x-500-top_img{
+	position: absolute;
+	top:30px;
+	left:60px;
+	height: 130px;
+	width: 220px;
+	background: url("images/error-flag.png") 0 -260px;
+	border: 0px;
+	outline: none;
+}
+.x-404-notfound{
+	position: absolute;
+	top: 30px;
+	left: 320px;
+	height: 130px;
+	line-height:180px;
+	font-size: 48px;
+	color: rgb(199,35,28);
+	font-weight: bold;
+}
+.x-500-error{
+	position: absolute;
+	top: 30px;
+	left: 290px;
+	height: 130px;
+	line-height:190px;
+	font-size: 28px;
+	word-spacing:-8px;
+	color: rgb(199,35,28);
+	font-weight: bold;
+}
+.x-404-info{
+	position: absolute;
+	top: 170px;
+	left: 60px;
+	height: 60px;
+	line-height:60px;
+	width: 500px;
+	font-size: 24px;
+	color: rgb(65,65,65);
+	font-weight: bold;
+}
+.x-500-info{
+	position: absolute;
+	top: 170px;
+	left: 60px;
+	height: 60px;
+	line-height:60px;
+	width: 500px;
+	font-size: 18px;
+	color: rgb(65,65,65);
+	font-weight: bold;
+}
+.x-404-right{
+	position: absolute;
+	top: 0px;
+	left: 250px;
+	height: 315px;
+	width: 350px;
+	line-height: 315px;
+	text-align: right;
+}
+.x-404-bottom{
+	height: 85px;
+	line-height: 85px;
+	margin: 0 60px;
+}
+.x-404-bottom a{
+	color:#3892d3;
+	font-size: 14px;
+	
+}

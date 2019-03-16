@@ -1,0 +1,4 @@
+url =E://app/app-debug.apk
+url_sj=E://app/app-sj.apk
+version-number={"versionCode"\:27,"updateContent"\:[{"updateContentDetail"\:"\u65B0\u589E  \u7B7E\u7EA6\u5BB6\u5EAD\u7EED\u7EA6\u901A\u77E5\u4E66"},{"updateContentDetail"\:"\u4FEE\u6539 \u4FEE\u590D\u4E86\u4E00\u4E9B\u4E4B\u524D\u7684bug"}],"updateAlert"\:"\u8BF7\u5C3D\u91CF\u5728\u6BCF\u6B21\u4F7F\u7528\u524D\u5220\u9664\u539F\u6709\u6570\u636E\u91CD\u65B0\u4E0B\u8F7D\u3002"}
+SJversion-number={"versionCode"\:4,"updateContent"\:[{"updateContentDetail"\:"\u90E8\u5206\u754C\u9762\u66F4\u65B0"}],"updateAlert"\:""}

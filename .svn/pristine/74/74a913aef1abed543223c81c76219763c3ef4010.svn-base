@@ -1,0 +1,8 @@
+1.修改个人信息时成员表的签约状态被抹掉                                 已经解决
+2.注销家庭时，家庭成员未注销         已经解决
+3.成员表个人信息变动，签约表、明细表、签约表中的cyxx字段保持一直
+4.修改家庭时，签约表、明细表、成员表字段保持一直
+5.签约家庭重复
+6.字段对应错误
+7.家庭显示签约状态用错字段
+8.IncorrectResultSizeDataAccessException: query did not return a unique result: 2

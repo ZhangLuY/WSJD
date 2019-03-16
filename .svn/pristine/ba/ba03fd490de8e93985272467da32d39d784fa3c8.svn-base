@@ -1,0 +1,680 @@
+package com.zrhis.wsjd.system.bean;
+
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * SqglQyjtfwjllw entity. @author MyEclipse Persistence Tools
+ */
+@Entity
+@Table(name = "SQGL_QYJTFWJLLW", schema = "CXJM")
+public class SqglQyjtfwjllw implements java.io.Serializable {
+
+	// Fields
+
+	private String VId;
+	private String depId;
+	private String depName;
+	private String CJth;
+	private String VYljgh;
+	private String VYljgmc;
+	private Date dtFwsj;
+	private String VHzxm;
+	private String VJtrenq;
+	private String VJtrs;
+	private String VJtdh;
+	private String VJtzz;
+	private Integer IFwzl1;
+	private Integer IFwzl2;
+	private Integer IFwzl3;
+	private Integer IFwzl4;
+	private Integer IFwzl5;
+	private Integer IFwzl6;
+	private Integer IFwzl7;
+	private Integer IFwzl8;
+	private Integer IFwzl9;
+	private Integer IFwzl10;
+	private Integer IFwzl11;
+	private String VPxjl;
+	private String VFwjl;
+	private String VFwxj;
+	private String VFwpg;
+	private String VJsfwjm;
+	private String VFwys;
+	private String CCzybh;
+	private Date dtCreate;
+	private String VFwtp;
+	private String VFwfs;
+	private String VJsjmfwqm;
+	private String VFwysqm;
+	private Integer IPjzt;
+	private Integer ISflx;
+	private Integer IYstqjh;
+	private Integer IYstd;
+	private Integer IPjfs;
+	private String VPjnr;
+	private Date dtPjsj;
+	private String CPjrgrbh;
+	private String CUserbh;
+	private String VZrys1;
+	private String VYsdh1;
+	private String VZz;
+	private String VTdcy;
+	private String VZrys2;
+	private String VYsdh2;
+	private String VXyd;
+	private String VXyg;
+	private String VXl;
+	private String VFwnr;
+	private String CGrbh;
+	private String VYfc;
+	private String VZzdh;
+
+	// Constructors
+
+	/** default constructor */
+	public SqglQyjtfwjllw() {
+	}
+
+	/** minimal constructor */
+	public SqglQyjtfwjllw(String VId) {
+		this.VId = VId;
+	}
+
+	/** full constructor */
+	public SqglQyjtfwjllw(String VId, String depId, String depName,
+			String CJth, String VYljgh, String VYljgmc, Date dtFwsj,
+			String VHzxm, String VJtrenq, String VJtrs, String VJtdh,
+			String VJtzz, Integer IFwzl1, Integer IFwzl2,
+			Integer IFwzl3, Integer IFwzl4, Integer IFwzl5,
+			Integer IFwzl6, Integer IFwzl7, Integer IFwzl8,
+			Integer IFwzl9, Integer IFwzl10, Integer IFwzl11,
+			String VPxjl, String VFwjl, String VFwxj, String VFwpg,
+			String VJsfwjm, String VFwys, String CCzybh, Date dtCreate,
+			String VFwtp, String VFwfs, String VJsjmfwqm, String VFwysqm,
+			Integer IPjzt, Integer ISflx, Integer IYstqjh,
+			Integer IYstd, Integer IPjfs, String VPjnr, Date dtPjsj,
+			String CPjrgrbh, String CUserbh, String VZrys1, String VYsdh1,
+			String VZz, String VTdcy, String VZrys2, String VYsdh2,
+			String VXyd, String VXyg, String VXl, String VFwnr,String CGrbh,String VYfc,String VZzdh) {
+		this.VId = VId;
+		this.depId = depId;
+		this.depName = depName;
+		this.CJth = CJth;
+		this.VYljgh = VYljgh;
+		this.VYljgmc = VYljgmc;
+		this.dtFwsj = dtFwsj;
+		this.VHzxm = VHzxm;
+		this.VJtrenq = VJtrenq;
+		this.VJtrs = VJtrs;
+		this.VJtdh = VJtdh;
+		this.VJtzz = VJtzz;
+		this.IFwzl1 = IFwzl1;
+		this.IFwzl2 = IFwzl2;
+		this.IFwzl3 = IFwzl3;
+		this.IFwzl4 = IFwzl4;
+		this.IFwzl5 = IFwzl5;
+		this.IFwzl6 = IFwzl6;
+		this.IFwzl7 = IFwzl7;
+		this.IFwzl8 = IFwzl8;
+		this.IFwzl9 = IFwzl9;
+		this.IFwzl10 = IFwzl10;
+		this.IFwzl11 = IFwzl11;
+		this.VPxjl = VPxjl;
+		this.VFwjl = VFwjl;
+		this.VFwxj = VFwxj;
+		this.VFwpg = VFwpg;
+		this.VJsfwjm = VJsfwjm;
+		this.VFwys = VFwys;
+		this.CCzybh = CCzybh;
+		this.dtCreate = dtCreate;
+		this.VFwtp = VFwtp;
+		this.VFwfs = VFwfs;
+		this.VJsjmfwqm = VJsjmfwqm;
+		this.VFwysqm = VFwysqm;
+		this.IPjzt = IPjzt;
+		this.ISflx = ISflx;
+		this.IYstqjh = IYstqjh;
+		this.IYstd = IYstd;
+		this.IPjfs = IPjfs;
+		this.VPjnr = VPjnr;
+		this.dtPjsj = dtPjsj;
+		this.CPjrgrbh = CPjrgrbh;
+		this.CUserbh = CUserbh;
+		this.VZrys1 = VZrys1;
+		this.VYsdh1 = VYsdh1;
+		this.VZz = VZz;
+		this.VTdcy = VTdcy;
+		this.VZrys2 = VZrys2;
+		this.VYsdh2 = VYsdh2;
+		this.VXyd = VXyd;
+		this.VXyg = VXyg;
+		this.VXl = VXl;
+		this.VFwnr = VFwnr;
+		this.CGrbh=CGrbh;
+		this.VZzdh=VZzdh;
+	}
+
+	
+
+	// Property accessors
+	@Id
+	@Column(name = "V_ID", unique = true, nullable = false, length = 100)
+	public String getVId() {
+		return this.VId;
+	}
+
+	public void setVId(String VId) {
+		this.VId = VId;
+	}
+
+	@Column(name = "DEP_ID", length = 100)
+	public String getDepId() {
+		return this.depId;
+	}
+
+	public void setDepId(String depId) {
+		this.depId = depId;
+	}
+
+	@Column(name = "DEP_NAME", length = 100)
+	public String getDepName() {
+		return this.depName;
+	}
+
+	public void setDepName(String depName) {
+		this.depName = depName;
+	}
+
+	@Column(name = "C_JTH", length = 20)
+	public String getCJth() {
+		return this.CJth;
+	}
+
+	public void setCJth(String CJth) {
+		this.CJth = CJth;
+	}
+
+	@Column(name = "V_YLJGH", length = 100)
+	public String getVYljgh() {
+		return this.VYljgh;
+	}
+
+	public void setVYljgh(String VYljgh) {
+		this.VYljgh = VYljgh;
+	}
+
+	@Column(name = "V_YLJGMC", length = 100)
+	public String getVYljgmc() {
+		return this.VYljgmc;
+	}
+
+	public void setVYljgmc(String VYljgmc) {
+		this.VYljgmc = VYljgmc;
+	}
+
+	@Column(name = "DT_FWSJ", length = 7)
+	public Date getDtFwsj() {
+		return this.dtFwsj;
+	}
+
+	public void setDtFwsj(Date dtFwsj) {
+		this.dtFwsj = dtFwsj;
+	}
+
+	@Column(name = "V_HZXM", length = 100)
+	public String getVHzxm() {
+		return this.VHzxm;
+	}
+
+	public void setVHzxm(String VHzxm) {
+		this.VHzxm = VHzxm;
+	}
+
+	@Column(name = "V_JTRENQ", length = 100)
+	public String getVJtrenq() {
+		return this.VJtrenq;
+	}
+
+	public void setVJtrenq(String VJtrenq) {
+		this.VJtrenq = VJtrenq;
+	}
+
+	@Column(name = "V_JTRS", length = 100)
+	public String getVJtrs() {
+		return this.VJtrs;
+	}
+
+	public void setVJtrs(String VJtrs) {
+		this.VJtrs = VJtrs;
+	}
+
+	@Column(name = "V_JTDH", length = 100)
+	public String getVJtdh() {
+		return this.VJtdh;
+	}
+
+	public void setVJtdh(String VJtdh) {
+		this.VJtdh = VJtdh;
+	}
+
+	@Column(name = "V_JTZZ", length = 200)
+	public String getVJtzz() {
+		return this.VJtzz;
+	}
+
+	public void setVJtzz(String VJtzz) {
+		this.VJtzz = VJtzz;
+	}
+
+	@Column(name = "I_FWZL1", precision = 22, scale = 0)
+	public Integer getIFwzl1() {
+		return this.IFwzl1;
+	}
+
+	public void setIFwzl1(Integer IFwzl1) {
+		this.IFwzl1 = IFwzl1;
+	}
+
+	@Column(name = "I_FWZL2", precision = 22, scale = 0)
+	public Integer getIFwzl2() {
+		return this.IFwzl2;
+	}
+
+	public void setIFwzl2(Integer IFwzl2) {
+		this.IFwzl2 = IFwzl2;
+	}
+
+	@Column(name = "I_FWZL3", precision = 22, scale = 0)
+	public Integer getIFwzl3() {
+		return this.IFwzl3;
+	}
+
+	public void setIFwzl3(Integer IFwzl3) {
+		this.IFwzl3 = IFwzl3;
+	}
+
+	@Column(name = "I_FWZL4", precision = 22, scale = 0)
+	public Integer getIFwzl4() {
+		return this.IFwzl4;
+	}
+
+	public void setIFwzl4(Integer IFwzl4) {
+		this.IFwzl4 = IFwzl4;
+	}
+
+	@Column(name = "I_FWZL5", precision = 22, scale = 0)
+	public Integer getIFwzl5() {
+		return this.IFwzl5;
+	}
+
+	public void setIFwzl5(Integer IFwzl5) {
+		this.IFwzl5 = IFwzl5;
+	}
+
+	@Column(name = "I_FWZL6", precision = 22, scale = 0)
+	public Integer getIFwzl6() {
+		return this.IFwzl6;
+	}
+
+	public void setIFwzl6(Integer IFwzl6) {
+		this.IFwzl6 = IFwzl6;
+	}
+
+	@Column(name = "I_FWZL7", precision = 22, scale = 0)
+	public Integer getIFwzl7() {
+		return this.IFwzl7;
+	}
+
+	public void setIFwzl7(Integer IFwzl7) {
+		this.IFwzl7 = IFwzl7;
+	}
+
+	@Column(name = "I_FWZL8", precision = 22, scale = 0)
+	public Integer getIFwzl8() {
+		return this.IFwzl8;
+	}
+
+	public void setIFwzl8(Integer IFwzl8) {
+		this.IFwzl8 = IFwzl8;
+	}
+
+	@Column(name = "I_FWZL9", precision = 22, scale = 0)
+	public Integer getIFwzl9() {
+		return this.IFwzl9;
+	}
+
+	public void setIFwzl9(Integer IFwzl9) {
+		this.IFwzl9 = IFwzl9;
+	}
+
+	@Column(name = "I_FWZL10", precision = 22, scale = 0)
+	public Integer getIFwzl10() {
+		return this.IFwzl10;
+	}
+
+	public void setIFwzl10(Integer IFwzl10) {
+		this.IFwzl10 = IFwzl10;
+	}
+
+	@Column(name = "I_FWZL11", precision = 22, scale = 0)
+	public Integer getIFwzl11() {
+		return this.IFwzl11;
+	}
+
+	public void setIFwzl11(Integer IFwzl11) {
+		this.IFwzl11 = IFwzl11;
+	}
+
+	@Column(name = "V_PXJL", length = 500)
+	public String getVPxjl() {
+		return this.VPxjl;
+	}
+
+	public void setVPxjl(String VPxjl) {
+		this.VPxjl = VPxjl;
+	}
+
+	@Column(name = "V_FWJL", length = 500)
+	public String getVFwjl() {
+		return this.VFwjl;
+	}
+
+	public void setVFwjl(String VFwjl) {
+		this.VFwjl = VFwjl;
+	}
+
+	@Column(name = "V_FWXJ", length = 500)
+	public String getVFwxj() {
+		return this.VFwxj;
+	}
+
+	public void setVFwxj(String VFwxj) {
+		this.VFwxj = VFwxj;
+	}
+
+	@Column(name = "V_FWPG", length = 500)
+	public String getVFwpg() {
+		return this.VFwpg;
+	}
+
+	public void setVFwpg(String VFwpg) {
+		this.VFwpg = VFwpg;
+	}
+
+	@Column(name = "V_JSFWJM", length = 100)
+	public String getVJsfwjm() {
+		return this.VJsfwjm;
+	}
+
+	public void setVJsfwjm(String VJsfwjm) {
+		this.VJsfwjm = VJsfwjm;
+	}
+
+	@Column(name = "V_FWYS", length = 100)
+	public String getVFwys() {
+		return this.VFwys;
+	}
+
+	public void setVFwys(String VFwys) {
+		this.VFwys = VFwys;
+	}
+
+	@Column(name = "C_CZYBH", length = 100)
+	public String getCCzybh() {
+		return this.CCzybh;
+	}
+
+	public void setCCzybh(String CCzybh) {
+		this.CCzybh = CCzybh;
+	}
+
+	@Column(name = "DT_CREATE", length = 7)
+	public Date getDtCreate() {
+		return this.dtCreate;
+	}
+
+	public void setDtCreate(Date dtCreate) {
+		this.dtCreate = dtCreate;
+	}
+
+	@Column(name = "V_FWTP")
+	public String getVFwtp() {
+		return this.VFwtp;
+	}
+
+	public void setVFwtp(String VFwtp) {
+		this.VFwtp = VFwtp;
+	}
+
+	@Column(name = "V_FWFS", length = 100)
+	public String getVFwfs() {
+		return this.VFwfs;
+	}
+
+	public void setVFwfs(String VFwfs) {
+		this.VFwfs = VFwfs;
+	}
+
+	@Column(name = "V_JSJMFWQM")
+	public String getVJsjmfwqm() {
+		return this.VJsjmfwqm;
+	}
+
+	public void setVJsjmfwqm(String VJsjmfwqm) {
+		this.VJsjmfwqm = VJsjmfwqm;
+	}
+
+	@Column(name = "V_FWYSQM")
+	public String getVFwysqm() {
+		return this.VFwysqm;
+	}
+
+	public void setVFwysqm(String VFwysqm) {
+		this.VFwysqm = VFwysqm;
+	}
+
+	@Column(name = "I_PJZT", precision = 22, scale = 0)
+	public Integer getIPjzt() {
+		return this.IPjzt;
+	}
+
+	public void setIPjzt(Integer IPjzt) {
+		this.IPjzt = IPjzt;
+	}
+
+	@Column(name = "I_SFLX", precision = 22, scale = 0)
+	public Integer getISflx() {
+		return this.ISflx;
+	}
+
+	public void setISflx(Integer ISflx) {
+		this.ISflx = ISflx;
+	}
+
+	@Column(name = "I_YSTQJH", precision = 22, scale = 0)
+	public Integer getIYstqjh() {
+		return this.IYstqjh;
+	}
+
+	public void setIYstqjh(Integer IYstqjh) {
+		this.IYstqjh = IYstqjh;
+	}
+
+	@Column(name = "I_YSTD", precision = 22, scale = 0)
+	public Integer getIYstd() {
+		return this.IYstd;
+	}
+
+	public void setIYstd(Integer IYstd) {
+		this.IYstd = IYstd;
+	}
+
+	@Column(name = "I_PJFS", precision = 22, scale = 0)
+	public Integer getIPjfs() {
+		return this.IPjfs;
+	}
+
+	public void setIPjfs(Integer IPjfs) {
+		this.IPjfs = IPjfs;
+	}
+
+	@Column(name = "V_PJNR", length = 350)
+	public String getVPjnr() {
+		return this.VPjnr;
+	}
+
+	public void setVPjnr(String VPjnr) {
+		this.VPjnr = VPjnr;
+	}
+
+	@Column(name = "DT_PJSJ", length = 7)
+	public Date getDtPjsj() {
+		return this.dtPjsj;
+	}
+
+	public void setDtPjsj(Date dtPjsj) {
+		this.dtPjsj = dtPjsj;
+	}
+
+	@Column(name = "C_PJRGRBH", length = 100)
+	public String getCPjrgrbh() {
+		return this.CPjrgrbh;
+	}
+
+	public void setCPjrgrbh(String CPjrgrbh) {
+		this.CPjrgrbh = CPjrgrbh;
+	}
+
+	@Column(name = "C_USERBH", length = 50)
+	public String getCUserbh() {
+		return this.CUserbh;
+	}
+
+	public void setCUserbh(String CUserbh) {
+		this.CUserbh = CUserbh;
+	}
+
+	@Column(name = "V_ZRYS1", length = 50)
+	public String getVZrys1() {
+		return this.VZrys1;
+	}
+
+	public void setVZrys1(String VZrys1) {
+		this.VZrys1 = VZrys1;
+	}
+
+	@Column(name = "V_YSDH1", length = 50)
+	public String getVYsdh1() {
+		return this.VYsdh1;
+	}
+
+	public void setVYsdh1(String VYsdh1) {
+		this.VYsdh1 = VYsdh1;
+	}
+
+	@Column(name = "V_ZZ", length = 50)
+	public String getVZz() {
+		return this.VZz;
+	}
+
+	public void setVZz(String VZz) {
+		this.VZz = VZz;
+	}
+
+	@Column(name = "V_TDCY", length = 100)
+	public String getVTdcy() {
+		return this.VTdcy;
+	}
+
+	public void setVTdcy(String VTdcy) {
+		this.VTdcy = VTdcy;
+	}
+
+	@Column(name = "V_ZRYS2", length = 50)
+	public String getVZrys2() {
+		return this.VZrys2;
+	}
+
+	public void setVZrys2(String VZrys2) {
+		this.VZrys2 = VZrys2;
+	}
+
+	@Column(name = "V_YSDH2", length = 50)
+	public String getVYsdh2() {
+		return this.VYsdh2;
+	}
+
+	public void setVYsdh2(String VYsdh2) {
+		this.VYsdh2 = VYsdh2;
+	}
+
+	@Column(name = "V_XYD", length = 50)
+	public String getVXyd() {
+		return this.VXyd;
+	}
+
+	public void setVXyd(String VXyd) {
+		this.VXyd = VXyd;
+	}
+
+	@Column(name = "V_XYG", length = 50)
+	public String getVXyg() {
+		return this.VXyg;
+	}
+
+	public void setVXyg(String VXyg) {
+		this.VXyg = VXyg;
+	}
+
+	@Column(name = "V_XL", length = 50)
+	public String getVXl() {
+		return this.VXl;
+	}
+
+	public void setVXl(String VXl) {
+		this.VXl = VXl;
+	}
+
+	@Column(name = "V_FWNR", length = 200)
+	public String getVFwnr() {
+		return this.VFwnr;
+	}
+
+	public void setVFwnr(String VFwnr) {
+		this.VFwnr = VFwnr;
+	}
+	
+	@Column(name = "C_GRBH", length = 50)
+	public String getCGrbh() {
+		return this.CGrbh;
+	}
+
+	public void setCGrbh(String CGrbh) {
+		this.CGrbh = CGrbh;
+	}
+	
+	@Column(name = "V_YFC", length = 50)
+	public String getVYfc() {
+		return this.VYfc;
+	}
+	public void setVYfc(String vYfc) {
+		this.VYfc = vYfc;
+	}
+	public void setVZzdh(String VZzdh) {
+		this.VZzdh = VZzdh;
+	}
+	@Column(name = "V_ZZDH", length = 50)
+	public String getVZzdh() {
+		return this.VZzdh;
+	}
+
+	
+	
+}

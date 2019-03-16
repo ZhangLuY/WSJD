@@ -1,0 +1,91 @@
+/**
+ * iconCls:xxx	
+ */
+
+.ws-icon-add{
+	background: url(images/sys_icon/add.gif) no-repeat !important;
+}
+.ws-icon-srcadd{
+	background: url(images/sys_icon/create_16.png) no-repeat !important;
+}
+.ws-icon-modify{
+	background: url(images/sys_icon/edit2_16.png) no-repeat !important;
+}
+.ws-icon-delete{
+	background: url(images/sys_icon/delete.gif) no-repeat !important;
+}
+.ws-icon-lock{
+	background: url(images/sys_icon/hmenu-lock.gif) no-repeat !important;
+}
+.ws-icon-unlock{
+	background: url(images/sys_icon/hmenu-unlock.gif) no-repeat !important;
+}
+.ws-icon-config{
+	background: url(images/sys_icon/config_16.png) no-repeat !important;
+}
+.ws-icon-reset{
+	background: url(images/sys_icon/undo_16.png) no-repeat !important;
+}
+.ws-icon-save{
+	background: url(images/sys_icon/save.gif) no-repeat !important;
+}
+.ws-icon-query{
+	background: url(images/sys_icon/query_16.png) no-repeat !important;
+}
+.ws-icon-insert{
+	background: url(images/sys_icon/insert_16.png) no-repeat !important;
+}
+.ws-icon-rowdel{
+	background: url(images/sys_icon/delete-row.gif) no-repeat !important;
+}
+.ws-icon-moveup{
+	background: url(images/sys_icon/moveup_16.png) no-repeat !important;
+}
+.ws-icon-movedown{
+	background: url(images/sys_icon/movedown_16.png) no-repeat !important;
+}
+.ws-icon-grid{
+	background: url(images/sys_icon/grid.png) no-repeat !important;
+}
+.ws-icon-chart{
+	background: url(images/sys_icon/chart_16.png) no-repeat !important;
+}
+.ws-icon-chart-line{
+	background: url(images/sys_icon/chart_line_16.png) no-repeat !important;
+}
+.ws-icon-chart-pie{
+	background: url(images/sys_icon/chart_pie_16.png) no-repeat !important;
+}
+.ws-icon-print{
+	background: url(images/sys_icon/print.png) no-repeat !important;
+}
+.ws-icon-export{
+	background: url(images/sys_icon/export.png) no-repeat !important;
+}
+.ws-icon-export2{
+	background: url(images/sys_icon/export_t.png) no-repeat !important;
+}
+.ws-icon-accept{
+	background: url(images/grid/accept.gif) no-repeat !important;
+}
+.ws-icon-wait{
+	background: url(images/grid/clock_16.png) no-repeat !important;
+}
+.ws-icon-mark{
+	background: url(images/main/mark_16.png) no-repeat !important;
+}
+.ws-icon-audit{
+	background: url(images/main/audit_16.png) no-repeat !important;
+}
+.ws-icon-redo{
+	background: url(images/main/redo_16.png) no-repeat !important;
+}
+.ws-icon-name{
+	background: url(images/main/name_16.png) no-repeat !important;
+}
+.ws-icon-home{
+	background: url(images/main/home_16.png) no-repeat !important;
+}
+.scroll{
+	background: url(images/main/arrow_switch.png) no-repeat !important;
+}

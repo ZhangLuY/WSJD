@@ -1,0 +1,107 @@
+package com.zrhis.wsjd.system.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.zrhis.base.Message;
+import com.zrhis.base.Parameters;
+import com.zrhis.wsjd.system.bean.SqglGxhfwxy;
+
+
+public interface IUserDao { 
+	String getDatasByParam(Map<String, Object> map, int pageSize, int page) throws Exception ;
+
+	String getJtByParam(Map<String, Object> map, int pageSize, int page)  throws Exception;
+
+
+	Message delete(HttpServletRequest request, Parameters params) throws Exception;
+
+	String Login(HttpServletRequest request) throws Exception;
+
+	Message surrender(HttpServletRequest request) throws Exception;
+
+	String getSqjgxxByParentId(String parentId) throws Exception;
+
+	Message saveGxhfwxy(HttpServletRequest request) throws Exception;
+
+	String queryQyjtfwjl(Map<String, Object> map, int pageSize, int page)  throws Exception;
+
+	Message saveQyjtfwjl(HttpServletRequest request)  throws Exception;
+
+	Message saveQyfwzrtdhf(HttpServletRequest request) throws Exception;
+
+	String getJtByParamsy(Map<String, Object> map) throws Exception;
+
+	String getQyfwxyss(Map<String, Object> map)throws Exception;
+
+	Message saveQyfwxy(Map<String, Object> fwxy)throws Exception;
+	
+	Message saveQyfwxyqy(HttpServletRequest request)throws Exception;
+	
+	String getByParamsy(Map<String, Object> map, String sql, String[] arry,Integer n)throws Exception;
+
+	String getZu(Map<String, Object> map)throws Exception;
+
+	String getZrysOrZrhs(Map<String, Object> map, String sql, String[] arr)throws Exception;
+
+	String getJwh(Map<String, Object> map, String sql, String[] arr)throws Exception;
+	//字典
+	String getZd(Map<String, Object> map, String sql, String[] arr)throws Exception;
+
+	Message saveJtcyxx(HttpServletRequest request)throws Exception;
+
+	String saveJtjbxx(HttpServletRequest request)throws Exception;
+
+	String queryJtcyxx(Map<String, Object> map, int page, int pageSize, int count)throws Exception;
+
+	String getXx(Map<String, Object> map, String sql, String[] arr)throws Exception;
+
+	Message saveZxb(HttpServletRequest request)throws Exception;
+
+	Message saveSfxx(HttpServletRequest request)throws Exception;
+	
+	String getSqglQyfwtdzrhfysmx(Map<String, Object> map, String sql, String[] arr)throws Exception;
+
+	void htUpdate(String cJth) throws Exception;
+
+	String getDatasByCJTH(String C_JTH) throws Exception;
+
+	String getQyfwxysw(Map<String, Object> paramMap) throws Exception;
+
+	void CyUpdate(HttpServletRequest request) throws Exception;
+
+	Map<String, Object> saveQyfwlog(HttpServletRequest request) throws Exception;
+
+	Message saveQyjtfwjllw(HttpServletRequest request) throws Exception;
+
+	String queryQyjtfwjllw(Map<String, Object> paramMap, int pageSize, int page)
+			throws Exception;
+
+	String saveQyfwxyyz(Map<String, Object> fwxy) throws Exception;
+
+	String chooseQyjt(Map<String, Object> request)
+			throws Exception;
+
+	String getGxyZx(Parameters params, int pageSize, int page)
+			throws Exception;
+
+	String getTnbZx(Parameters params, int pageSize, int page) throws Exception;
+
+	String getFwjl(Map<String, Object> map, String sql, String[] arr)
+			throws Exception;
+
+	String getQyfwxyXy(Map<String, Object> paramMap) throws Exception;
+
+	Message saveJtqyls(HttpServletRequest request) throws Exception;
+
+
+
+
+
+
+}

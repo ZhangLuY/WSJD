@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+    
+	<persistence-unit name="ORACLE" transaction-type="RESOURCE_LOCAL">
+		<provider>
+			org.apache.openjpa.persistence.PersistenceProviderImpl
+		</provider>
+		<class>com.zrhis.wsjd.system.bean.XtglCzy</class>
+		<class>com.zrhis.wsjd.system.bean.SqglGxhfwxy</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtjbxx</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcyjbxx</class>
+		<class>com.zrhis.wsjd.system.bean.SqglQyjtfwjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglQyfwtdzrhf</class>
+		<class>com.zrhis.wsjd.system.bean.SqglXcysqyfw</class>
+		<class>com.zrhis.wsjd.system.bean.XtglZrys</class>
+		<class>com.zrhis.wsjd.system.bean.XtglZrhs</class>
+		<class>com.zrhis.wsjd.system.bean.XtglYyxx</class>
+		<class>com.zrhis.wsjd.system.bean.XtglJwh</class>
+		<class>com.zrhis.wsjd.system.bean.XtglMz</class>
+		<class>com.zrhis.wsjd.system.bean.XtglWhcd</class>
+		<class>com.zrhis.wsjd.system.bean.XtglZy</class>
+		<class>com.zrhis.wsjd.system.bean.XtglHzgxb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcyjzs</class>
+		<class>com.zrhis.wsjd.system.bean.XtglJtlx</class>
+		<class>com.zrhis.wsjd.system.bean.XtglPcs</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcylrzxb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcylrzxbsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglNwkxmtj</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcygxyzxb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcygxyzxbsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcytnbzxb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcytnbzxbsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcyjsbzxb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglJtcyjsbzxbsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglFjhdycrhsf</class>
+		<class>com.zrhis.wsjd.system.bean.SqglFjhhzsfjlb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglEtjkjcyl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglXsejtfsb</class>
+		<class>com.zrhis.wsjd.system.bean.SqglCqsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglYcfChsfjl</class>
+		<class>com.zrhis.wsjd.system.bean.SqglXcysqyfwjtcy</class>
+		<class>com.zrhis.wsjd.system.bean.SqglQyfwtdzrhfysmx</class>
+		<class>com.zrhis.wsjd.system.bean.XtglUsers</class>
+		<class>com.zrhis.wsjd.system.bean.SqglQyjtfwjllw</class>
+		<class>com.zrhis.wsjd.system.bean.SqglXcysqyls</class>
+	</persistence-unit>
+
+</persistence>

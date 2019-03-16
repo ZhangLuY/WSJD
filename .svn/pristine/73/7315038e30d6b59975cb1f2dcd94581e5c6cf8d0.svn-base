@@ -1,0 +1,5 @@
+.x-help-main{
+	width:1000px;
+	border:1px solid #ccc;
+	margin: 20px auto;
+}

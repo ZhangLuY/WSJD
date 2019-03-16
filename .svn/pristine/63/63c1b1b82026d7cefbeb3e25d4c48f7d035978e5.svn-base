@@ -1,0 +1,140 @@
+/**
+ * borderColor:#99bce8
+ */
+ body{
+ 	font-size: 12px;
+ }
+.x-ws-companyInfo{
+	height:30px;
+	text-align: center;
+	line-height: 24px;
+}
+.x-ws-companyInfo span{
+	margin-right: 10px;
+}
+
+.x-ws-banner-body{
+	background-color: rgb(223,232,246);
+	/* background-color: rgb(238,238,238); */
+	color: #083772;
+	font-size: 24px;
+	padding:0 20px;
+	line-height:50px;
+	font-weight: bold;
+}
+.x-ws-menupanel{
+	border-bottom: 5px solid #157fcc;
+	background-color: rgb(238,238,238);
+}
+.x-ws-component{
+	background: url("images/main/wscbg.png") no-repeat;
+	height:50px;
+}
+.x-ws-toolbar{
+	background: none;
+}
+
+
+/***************************ICON Style******************************/
+.x-ws-main-logout{background: url(images/main/logout.gif) no-repeat !important;}
+.x-ws-main-close{background: url(images/main/shutdown_16.png) no-repeat !important;}
+
+
+
+/*************************Override Ext style****************************/
+.x-grid-group-title{
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.x-grid-progresscell-td{
+	padding: 0 1px 1px 1px;
+}
+.x-grid-progresscell-inner{
+	position:relative;
+	padding:0;
+	background-color: #fff;
+}
+
+.x-btn-default-toolbar-small .x-btn-inner{
+	font-size:12px;
+}
+.x-progress-default .x-progress-text,.x-tab-default .x-tab-inner,.x-toolbar-item .x-form-item-label{
+	font-size:12px;
+}
+.x-column-header , .x-grid-cell, .x-toolbar-text ,.x-toolbar,.x-menu-item-text,
+.x-tree-node-text,.x-grid-group-title{
+	font-size:12px;
+}
+
+.ws-progresscolumn-text{
+	font-size: 12px;
+}
+/*************************Custom Style*******************************/
+.ws-custom-boundlist{
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+}
+.ws-entry-header{
+	color:#3764a0;
+	font-size:13px;
+	font-weight:bold;
+}
+.ws-entry-container{
+	position: relative;
+	font-size: 12px;
+}
+.ws-header-bbar{
+	border-bottom: 1px solid #99bce8;
+}
+.ws-entry-container div{
+	margin-bottom: 8px;
+}
+
+.ws-borderTop{
+	border-top: 1px solid #99bce8;
+}
+.ws-panel-border-bottom{
+	border-bottom:1px solid #99bce8; 
+}
+.ws-panel-border-top{
+	border-top:1px solid #99bce8; 
+}
+.ws-panel-border-left{
+	border-left:1px solid #99bce8; 
+}
+.ws-panel-border-right{
+	border-right:1px solid #99bce8; 
+}
+.ws-querybar-fs{
+	margin-left: 15px;
+	line-height: 20px;
+}
+
+.x-grid-record-0 td{
+	color:red;
+}
+.ws-grid-pftx{}
+
+.ws-grid-pftx .x-grid-row-selected td{
+	font-weight: bold;
+}
+.ws-unused{
+	color:red;
+}
+.ws-used{
+	color:green;
+}
+.ws-newused{
+	color:blue;
+}
+
+.ws-app-menu{
+	/*font-size: 13px !important;*/
+}
+
+.ws-app-menu .x-btn-inner{
+	font-size: 13px !important;
+}
